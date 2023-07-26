@@ -1,0 +1,34 @@
+/*********************** HERO **********************/
+/* styles.css */
+/* Your existing CSS code here */
+/* under 1840px */
+@media (max-width: 115em) {
+  .slider-controls-box {
+    font-size: 3.6rem;
+    position: absolute;
+    transform: translate(150rem, 0);
+    margin-top: 2.4rem;
+  }
+  .slider {
+    padding-right: 25rem;
+    margin-right: -80rem !important;
+  }
+  .testimonials-container .slider .card {
+    flex-basis: 30rem !important;
+  }
+}
+/* under 1532px */
+@media (max-width: 95.75em) {
+  .slider-controls-box {
+    font-size: 3.6rem;
+    position: absolute;
+    transform: translate(120rem, 0);
+    margin-top: 2.4rem;
+  }
+  .slider {
+    margin-right: -58rem !important;
+  }
+  .testimonials-container .slider .card {
+    flex-basis: 30rem !important;
+  }
+}/*# sourceMappingURL=queries.css.map */

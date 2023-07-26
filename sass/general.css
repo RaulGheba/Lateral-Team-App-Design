@@ -1,0 +1,356 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.page-container {
+  overflow-x: hidden;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+}
+
+.text-desc {
+  font-size: 1.8rem;
+}
+
+.link {
+  font-size: 1.8rem;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/*********************** HERO **********************/
+.brand {
+  font-size: 5rem;
+  letter-spacing: 0;
+}
+.brand .dot {
+  color: blue;
+  letter-spacing: 0;
+}
+
+.hero {
+  height: 90vh;
+  background: url(/imgs/hero-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2.4rem 4.8rem;
+  color: #f1f3f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+  margin-bottom: 0.8rem;
+}
+
+.hero-container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.nav-brand {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.4rem;
+}
+.nav-brand nav {
+  display: flex;
+  align-items: center;
+}
+.nav-brand .links {
+  display: flex;
+  gap: 3.2rem;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 3.2rem;
+}
+.nav-brand .links .nav-link {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.nav-brand .links .nav-link:hover {
+  color: #868e96;
+}
+.nav-brand .links .nav-link:last-child {
+  background-color: rgba(0, 125, 228, 0.5);
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+}
+.nav-brand .links .nav-link:last-child:hover {
+  color: #f1f3f5;
+  background-color: rgba(0, 125, 228, 0.2);
+}
+
+.hero-text-container {
+  width: 45%;
+  margin-top: 20%;
+}
+.hero-text-container .hero-text {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+.hero-text-container .hero-description {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
+.hero-text-container .email {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 3.2rem;
+}
+.hero-text-container .email input {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  width: 60%;
+  border: none;
+  border-radius: 0.8rem;
+}
+.hero-text-container .email button {
+  background-color: #0265b6;
+  color: #f1f3f5;
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 3.2rem;
+  white-space: nowrap;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/***********************  CHATS AND STATS **********************/
+.chats-and-stats {
+  margin-bottom: 4.8rem;
+}
+
+.chats-container {
+  margin: 0 auto;
+  max-width: 120rem;
+  display: flex;
+  gap: 4.8rem;
+}
+.chats-container .chats-text {
+  color: #07233b;
+  margin-top: 18rem;
+  width: 110%;
+}
+.chats-container .chats-text p {
+  font-size: 1.9rem;
+}
+.chats-container .mockup-img {
+  width: 150%;
+}
+.chats-container .img-container {
+  margin-right: -10rem;
+}
+
+.chats-container .link:hover span {
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+
+.chats-container .link {
+  color: #339af0;
+  text-decoration: none;
+}
+.chats-container .link span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 0rem;
+  transition: all 0.5s;
+}
+
+/***********************  FEATURES **********************/
+.features-container {
+  margin: 0 auto;
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 6.4rem;
+       column-gap: 6.4rem;
+  padding-left: 12rem;
+  margin-bottom: 6.4rem;
+}
+.features-container .features-img img {
+  width: 100%;
+}
+.features-container .features-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features-container .features-text .link {
+  color: #339af0;
+  text-decoration: none;
+}
+.features-container .features-text .link span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 0rem;
+  transition: all 0.5s;
+}
+.features-container .features-text .link:hover span {
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+.features-container .features-text h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+  color: #07233b;
+}
+.features-container .features-text p {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+/*********************** TESTIMONIALS **********************/
+.testimonials-container {
+  margin-bottom: 24rem;
+  position: relative;
+}
+.testimonials-container .slider {
+  margin-right: -90rem;
+  display: flex;
+  gap: 4.2rem;
+  justify-content: center;
+}
+.testimonials-container .slider .card {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(32, 107, 168, 0.295);
+  border: 0.8rem;
+  flex-basis: 34rem;
+}
+.testimonials-container .slider .card .stars {
+  display: flex;
+  gap: 2rem;
+}
+.testimonials-container .slider .card .star {
+  color: yellow;
+  font-size: 3.2rem;
+}
+.testimonials-container .slider .card .review {
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+}
+.testimonials-container .slider .card .person {
+  display: flex;
+  margin-top: 3.2rem;
+}
+.testimonials-container .slider .card .person .person-img {
+  width: 60%;
+}
+.testimonials-container .slider .card .person .person-name {
+  width: 100%;
+  margin-left: -2rem;
+}
+.testimonials-container .slider .card .person p:first-child {
+  font-size: 2.4rem;
+}
+.testimonials-container .slider .card .person p:last-child {
+  font-size: 1.2rem;
+}
+.testimonials-container h1 {
+  text-align: center;
+  font-size: 4.8rem;
+  color: #07233b;
+  margin-bottom: 4.8rem;
+}
+
+/*********************** TESTIMONIALS SLIDER**********************/
+.slider-controls-box {
+  font-size: 3.6rem;
+  position: absolute;
+  transform: translate(180rem, 0);
+  margin-top: 2.4rem;
+}
+.slider-controls-box .slider-left {
+  display: none;
+}
+
+/*********************** FOOTER **********************/
+.footer-container {
+  background-color: #232340;
+  color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  padding: 6.4rem;
+  position: relative;
+  gap: 8.8rem;
+  justify-content: center;
+}
+.footer-container .footer-brand {
+  margin-right: -8.2rem;
+  padding-bottom: 5.6rem;
+}
+.footer-container .footer-features {
+  margin-top: 3.2rem;
+}
+.footer-container .footer-component {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.footer-container .footer-component h1 {
+  font-size: 4.8rem;
+}
+.footer-container .footer-component h2 {
+  font-size: 2.8rem;
+  color: #339af0;
+}
+.footer-container .footer-component p {
+  font-size: 1.6rem;
+}
+.footer-container .footer-component p:hover {
+  color: rgb(48, 48, 231);
+  cursor: pointer;
+}
+.footer-container .email {
+  position: relative;
+  display: flex;
+  gap: 0.8rem;
+}
+.footer-container .email input {
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: rgba(134, 142, 150, 0.4196078431);
+}
+.footer-container .email input::-moz-placeholder {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer-container .email input::placeholder {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer-container .footer-desc {
+  width: 55%;
+}
+.footer-container button {
+  position: absolute;
+  transform: translate(22rem, 25%);
+  background: none;
+  border: none;
+  font-size: 3.2rem;
+  color: white;
+}
+.footer-container button:hover {
+  cursor: pointer;
+}
+.footer-container .copy {
+  position: absolute;
+  transform: translate(-66.8rem, 15rem);
+}/*# sourceMappingURL=general.css.map */
