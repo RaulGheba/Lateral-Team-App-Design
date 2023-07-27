@@ -84,6 +84,12 @@ body {
 .nav-brand .links .nav-link:hover {
   color: #868e96;
 }
+.nav-brand .links .nav-link:nth-child(2) a {
+  color: #f1f3f5;
+}
+.nav-brand .links .nav-link:nth-child(2) a:hover {
+  color: #868e96;
+}
 .nav-brand .links .nav-link:last-child {
   background-color: rgba(0, 125, 228, 0.5);
   border-radius: 0.8rem;

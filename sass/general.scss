@@ -14,7 +14,6 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   margin: 0;
-
 }
 
 @mixin container-size {
@@ -22,7 +21,7 @@ html {
   max-width: 120rem;
 }
 
-.page-container{
+.page-container {
   overflow-x: hidden;
 }
 
@@ -105,6 +104,15 @@ body {
     .nav-link:hover {
       color: $gray-main;
     }
+
+    .nav-link:nth-child(2) a {
+      color: $main-text-color;
+    }
+
+    .nav-link:nth-child(2) a:hover {
+      color: $gray-main;
+    }
+
     .nav-link:last-child {
       background-color: rgba($color: #007de4, $alpha: 0.5);
       border-radius: 0.8rem;

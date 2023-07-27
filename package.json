@@ -6,7 +6,8 @@
   "scripts": {
     "main:sass": "node-sass sass/general.scss css/general.css -w",
     "styles:sass": "node-sass sass/styles.scss css/styles.css -w",
-    "queries:sass": "node-sass sass/queries.scss css/queries.css -w"
+    "queries:sass": "node-sass sass/queries.scss css/queries.css -w",
+    "blog:sass": "node-sass sass/blog.scss css/blog.css -w"
   },
   "author": "Raul Gheba",
   "license": "ISC",
