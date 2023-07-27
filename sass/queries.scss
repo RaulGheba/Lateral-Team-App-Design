@@ -39,4 +39,90 @@
   .testimonials-container .slider .card {
     flex-basis: 30rem !important;
   }
+
+  .footer-container {
+    gap: 12rem;
+  }
+
+  .footer-brand {
+    padding-top: 6rem;
+  }
+}
+
+/* under 1202px */
+@media (max-width: 75.125em) {
+  .slider-controls-box {
+    font-size: 3.6rem;
+    position: absolute;
+    transform: translate(95rem, 0);
+    margin-top: 2.4rem;
+  }
+
+  .slider {
+    margin-right: -58rem !important;
+  }
+
+  .testimonials-container .slider .card {
+    flex-basis: 23rem !important;
+  }
+
+  .testimonials-container .slider .card .review {
+    flex-basis: 27rem !important;
+    font-size: 1.6rem;
+  }
+
+  .hero-container {
+    .hero-text {
+      width: 50rem;
+    }
+
+    .hero-description {
+      width: 50rem;
+    }
+
+    .email {
+      width: 50rem;
+    }
+  }
+
+  .hero-container {
+    .hero-text-container h2 {
+      font-size: 3.2rem;
+    }
+  }
+
+  .chats-container {
+    padding-left: 3.2rem;
+
+    .img-container {
+      padding-top: 6rem;
+      width: 110%;
+    }
+
+    .chats-text {
+      padding-bottom: 10rem;
+    }
+  }
+  .footer-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .footer-brand {
+      grid-column: 1/-1;
+
+      .footer-desc {
+        width: 20%;
+      }
+    }
+
+    .copy {
+      position: absolute;
+      transform: translate(7rem, 45rem);
+    }
+
+    .footer-email {
+      margin-bottom: 4rem;
+    }
+  }
 }
