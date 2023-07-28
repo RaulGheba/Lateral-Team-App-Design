@@ -81,6 +81,19 @@ body {
 
 .nav {
   margin-top: 3.2rem;
+
+  .nav-brand .links .nav-btn{
+    padding-left: 3.2rem ;
+    padding-right: 3.2rem ;
+  }
+}
+
+.nav-link{
+  text-decoration: underline;
+
+  &:last-child{
+    text-decoration: none;
+  }
 }
 
 .home-link{
@@ -92,6 +105,8 @@ body {
 }
 
 /* CARDS */
+
+
 
 .cards {
   margin-top: 8.4rem;
@@ -121,7 +136,9 @@ body {
   margin-top: 4.8rem;
   .card {
     transition: transform 0.5s ease;
-
+    cursor: pointer;
+    text-decoration: none;
+    color: #07233b;
     &:hover {
       transform: translateY(-10px); /* Move up by 10px on hover */
     }

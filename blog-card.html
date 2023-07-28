@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="sass/general.css" />
+    <link rel="stylesheet" href="sass/blog-card.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----------- NAV ------------->
+
+    <section class="nav">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="index.html" class="home-link">
+            <h1 class="brand">team<span class="dot">.</span></h1>
+          </a>
+          <nav>
+            <ul class="links">
+              <li class="nav-link">Product</li>
+              <li class="nav-link">
+                <a
+                  style="text-decoration: none"
+                  class="blog-link"
+                  href="/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-link">Support</li>
+              <li class="nav-link">Log In</li>
+              <li class="nav-link nav-btn">Get Access</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="header-container">
+        <h1>Data exported by Team Cloud organization</h1>
+        <div class="author">
+          <div class="author-img-container">
+            <img
+              src="imgs/blog-cards/madison-ledner.jpg"
+              class="author-img"
+              alt=""
+            />
+          </div>
+          <p class="author-name">Madison Ledner | September 20, 2022</p>
+        </div>
+      </div>
+
+      <div class="text-container-img">
+        <img src="imgs/team-computers.jpg" alt="" />
+      </div>
+
+<div class="header-text-container">
+  <div class="text">
+    <p>
+      Administrators of Team Cloud organizations can export public data from their organization via the organization settings menu. The exports include all the data that appears in public streams, and can be used to migrate from Team Cloud to self-hosting Team. Note that exporting private data is a separate process that requires contacting Team Support.
+      <br />
+      <br /> <!-- Space added between line breaks -->
+      Due to a bug in the public export code, exports of public data contained all uploaded files, even those from private messages and private streams. This may have allowed organization owners or administrators to extract uploaded files that they were not otherwise allowed to access. The content of non-public messages was never included in public exports.
+      <br />
+      <br /> <!-- Space added between line breaks -->
+      This bug has existed since the public export feature was implemented in August 2019. We have deleted all existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after 7 days in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release.
+      <br />
+      <br /> <!-- Space added between line breaks -->
+      We have notified by email all administrators and users in non-deactivated Team Cloud organizations who may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud users were not affected.
+      <br />
+      <br /> <!-- Space added between line breaks -->
+      We would like to thank Antoine Benoist for bringing this issue to our attention.
+    </p>
+  </div>
+</div>
+    </section>
+  </body>
+</html>

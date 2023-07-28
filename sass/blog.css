@@ -54,6 +54,17 @@ body {
 .nav {
   margin-top: 3.2rem;
 }
+.nav .nav-brand .links .nav-btn {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
+.nav-link:last-child {
+  text-decoration: none;
+}
 
 .home-link {
   text-decoration: none;
@@ -92,6 +103,9 @@ body {
 }
 .cards-container .card {
   transition: transform 0.5s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: #07233b;
 }
 .cards-container .card:hover {
   transform: translateY(-10px); /* Move up by 10px on hover */
