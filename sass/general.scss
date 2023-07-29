@@ -176,6 +176,7 @@ body {
   @include container-size();
   display: flex;
   gap: 4.8rem;
+  box-shadow: 0.5px 0px 4px rgba(0, 0, 0, 0.2);
   .chats-text {
     color: $secondary-color;
     margin-top: 18rem;
@@ -211,8 +212,9 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 6.4rem;
-  padding-left: 12rem;
+  padding-left: 8rem;
   margin-bottom: 6.4rem;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1) !important;
   .features-img img {
     width: 100%;
   }
@@ -249,7 +251,6 @@ body {
 /*********************** TESTIMONIALS **********************/
 
 .testimonials-container {
-  @include container-size();
   margin-bottom: 24rem;
   .slider {
     margin-right: -90rem;
@@ -327,7 +328,7 @@ body {
   align-items: center;
   padding: 6.4rem;
   position: relative;
-  gap: 8.8rem;
+  gap: 2rem;
   justify-content: center;
   .footer-brand {
     margin-right: -8.2rem;

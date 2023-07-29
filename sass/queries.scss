@@ -92,11 +92,11 @@
     }
   }
 
-  .features-text{
+  .features-text {
     margin-right: 3.2rem;
   }
 
-  .features-text h1{
+  .features-text h1 {
     font-size: 4rem !important;
   }
 
@@ -130,7 +130,7 @@
 
     .copy {
       position: absolute;
-      transform: translate(7rem, 45rem);
+      transform: translate(10rem, 35rem);
     }
 
     .footer-email {
@@ -158,7 +158,6 @@
   }
 
   .chats-container {
-
     padding-bottom: 6rem;
     .chats-text {
       padding-top: 4.8rem;
@@ -177,50 +176,75 @@
       margin-bottom: 1.6rem;
     }
   }
-    .features-container .features-text h1{
-  font-size: 3.2rem;
-  padding-right: 4rem;
-}
-
+  .features-container .features-text h1 {
+    font-size: 3.2rem;
+    padding-right: 4rem;
+  }
 }
 
 /* under 864px */
 
-@media (max-width: 54em){
- .testimonials .testimonials-container .slider {
-   gap: 2rem;
-}
+@media (max-width: 54em) {
+  .testimonials .testimonials-container .slider {
+    gap: 2rem;
+  }
 
-.features-container .features-text h1{
-  font-size: 2.4rem !important;
-}
+  .features-container .features-text h1 {
+    font-size: 2.4rem !important;
+  }
 
-.features-container .features-text p{
-  font-size: 1.6rem !important;
-}
+  .features-container .features-text p {
+    font-size: 1.6rem !important;
+  }
 }
 
 /* under 699px */
 
-@media (max-width: 43.6875em){
-  .testimonials-container{
+@media (max-width: 43.6875em) {
+  .chats-and-stats .chats-container .chats-text .heading-primary {
+    font-size: 3rem;
+  }
+
+  .testimonials-container {
     max-width: 150rem;
   }
 
-  .testimonials .testimonials-container .slider{
+  .testimonials .testimonials-container .slider {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    .card{
-      max-width: 80%;
-      .review, .person{
+    grid-template-columns: repeat(2, 1fr);
+    .card {
+      width: 50rem;
+      .review,
+      .person {
         width: 80%;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
       }
     }
   }
 
-  .slider-controls-box{
-    font-size: 3rem;
-    transform: translate(50%, 0);
+  .slider-controls-box {
+    font-size: 5rem;
+    transform: translate(30rem, 0);
+  }
+
+  .features-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5rem;
+
+    .features-img {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-container .copy {
+    position: absolute;
+    transform: translate(6rem, 38rem);
   }
 }

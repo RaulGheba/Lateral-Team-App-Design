@@ -146,6 +146,7 @@ body {
   max-width: 120rem;
   display: flex;
   gap: 4.8rem;
+  box-shadow: 0.5px 0px 4px rgba(0, 0, 0, 0.2);
 }
 .chats-container .chats-text {
   color: #07233b;
@@ -186,8 +187,9 @@ body {
   grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 6.4rem;
        column-gap: 6.4rem;
-  padding-left: 12rem;
+  padding-left: 8rem;
   margin-bottom: 6.4rem;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1) !important;
 }
 .features-container .features-img img {
   width: 100%;
@@ -223,8 +225,6 @@ body {
 
 /*********************** TESTIMONIALS **********************/
 .testimonials-container {
-  margin: 0 auto;
-  max-width: 120rem;
   margin-bottom: 24rem;
   position: relative;
 }
@@ -295,7 +295,7 @@ body {
   align-items: center;
   padding: 6.4rem;
   position: relative;
-  gap: 8.8rem;
+  gap: 2rem;
   justify-content: center;
 }
 .footer-container .footer-brand {
