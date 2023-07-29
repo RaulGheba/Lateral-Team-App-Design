@@ -40,10 +40,6 @@
     flex-basis: 30rem !important;
   }
 
-  .footer-container {
-    gap: 12rem;
-  }
-
   .footer-brand {
     padding-top: 6rem;
   }
@@ -100,7 +96,10 @@
     }
 
     .chats-text {
-      padding-bottom: 10rem;
+      padding-top: 6rem;
+      .text-desc {
+        font-size: 1.6rem;
+      }
     }
   }
   .footer-container {
@@ -123,6 +122,45 @@
 
     .footer-email {
       margin-bottom: 4rem;
+    }
+  }
+}
+
+/* under 980px */
+
+@media (max-width: 61.25em) {
+  .slider-controls-box {
+    font-size: 3rem;
+    position: absolute;
+    transform: translate(80rem, 0);
+    margin-top: 2.4rem;
+  }
+
+  .testimonials {
+    padding-left: 4.8rem;
+
+    .testimonials-container .slider .card {
+      flex-basis: 20rem !important;
+    }
+  }
+
+  .chats-container {
+    padding-bottom: 6rem;
+    .chats-text {
+      padding-top: 4.8rem;
+
+      .heading-primary {
+        font-size: 4rem;
+        width: 100%;
+      }
+      .text-desc {
+        font-size: 1.6rem;
+        margin-top: 3.2rem;
+      }
+    }
+
+    .chats-and-stats {
+      margin-bottom: 1.6rem;
     }
   }
 }
