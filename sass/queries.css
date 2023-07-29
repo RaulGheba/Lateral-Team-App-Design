@@ -40,7 +40,7 @@
   .slider-controls-box {
     font-size: 3.6rem;
     position: absolute;
-    transform: translate(95rem, 0);
+    transform: translate(90rem, 0);
     margin-top: 2.4rem;
   }
   .slider {
@@ -64,6 +64,12 @@
   }
   .hero-container .hero-text-container h2 {
     font-size: 3.2rem;
+  }
+  .features-text {
+    margin-right: 3.2rem;
+  }
+  .features-text h1 {
+    font-size: 4rem !important;
   }
   .chats-container {
     padding-left: 3.2rem;
@@ -102,7 +108,7 @@
   .slider-controls-box {
     font-size: 3rem;
     position: absolute;
-    transform: translate(80rem, 0);
+    transform: translate(65rem, 0);
     margin-top: 2.4rem;
   }
   .testimonials {
@@ -127,5 +133,42 @@
   }
   .chats-container .chats-and-stats {
     margin-bottom: 1.6rem;
+  }
+  .features-container .features-text h1 {
+    font-size: 3.2rem;
+    padding-right: 4rem;
+  }
+}
+/* under 864px */
+@media (max-width: 54em) {
+  .testimonials .testimonials-container .slider {
+    gap: 2rem;
+  }
+  .features-container .features-text h1 {
+    font-size: 2.4rem !important;
+  }
+  .features-container .features-text p {
+    font-size: 1.6rem !important;
+  }
+}
+/* under 699px */
+@media (max-width: 43.6875em) {
+  .testimonials-container {
+    max-width: 150rem;
+  }
+  .testimonials .testimonials-container .slider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonials .testimonials-container .slider .card {
+    max-width: 80%;
+  }
+  .testimonials .testimonials-container .slider .card .review, .testimonials .testimonials-container .slider .card .person {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+  .slider-controls-box {
+    font-size: 3rem;
+    transform: translate(50%, 0);
   }
 }/*# sourceMappingURL=queries.css.map */

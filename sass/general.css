@@ -223,6 +223,8 @@ body {
 
 /*********************** TESTIMONIALS **********************/
 .testimonials-container {
+  margin: 0 auto;
+  max-width: 120rem;
   margin-bottom: 24rem;
   position: relative;
 }
