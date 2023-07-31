@@ -151,6 +151,15 @@
     font-size: 1.6rem !important;
   }
 }
+/* under 778px */
+@media (max-width: 48.625em) {
+  .nav-brand .links .nav-link {
+    font-size: 1.6rem;
+  }
+  .nav-brand .brand {
+    font-size: 2.6rem;
+  }
+}
 /* under 699px */
 @media (max-width: 43.6875em) {
   .chats-and-stats .chats-container .chats-text .heading-primary {
