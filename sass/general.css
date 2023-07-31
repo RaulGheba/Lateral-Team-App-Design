@@ -1,4 +1,3 @@
-/* styles.css */
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +66,9 @@ body {
 .nav-brand nav {
   display: flex;
   align-items: center;
+}
+.nav-brand .mobile-nav {
+  display: none;
 }
 .nav-brand .links {
   display: flex;

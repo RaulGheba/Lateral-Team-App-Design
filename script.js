@@ -27,11 +27,3 @@ testimonialRight.addEventListener('mouseenter',function(){
 testimonialLeft.addEventListener("mouseenter", function () {
   this.style.cursor = "pointer";
 });
-
-const navToggle = document.querySelector(".nav-toggle");
-const mobileLinks = document.querySelector(".mobile-links");
-
-// Mobile Nav Functionality
-navToggle.addEventListener("click", () => {
-  mobileLinks.classList.toggle("show");
-});

@@ -1,6 +1,4 @@
 /*********************** HERO **********************/
-/* styles.css */
-/* Your existing CSS code here */
 /* under 1840px */
 @media (max-width: 115em) {
   .slider-controls-box {
@@ -157,7 +155,7 @@
     font-size: 1.6rem;
   }
   .nav-brand .brand {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
   }
 }
 /* under 699px */
@@ -202,4 +200,32 @@
     position: absolute;
     transform: translate(6rem, 41rem);
   }
+  .nav-brand {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .nav-brand .nav {
+    display: none;
+  }
+  .nav-brand .mobile-nav {
+    display: block;
+  }
+  .mobile-links {
+    background-color: rgba(170, 170, 219, 0.932) !important;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mobile-nav-link {
+    font-size: 1.6rem;
+  }
+}
+.display-mobile {
+  display: block;
+}
+
+.hide-mobile {
+  display: none;
 }/*# sourceMappingURL=queries.css.map */

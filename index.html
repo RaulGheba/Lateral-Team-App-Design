@@ -6,7 +6,6 @@
     <title>Team App</title>
 
     <link rel="stylesheet" href="sass/general.css" />
-    <link rel="stylesheet" href="sass/styles.css" />
     <link rel="stylesheet" href="sass/queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,296 +17,328 @@
   </head>
   <body>
     <div class="page-container">
-    <!-------------------- HERO -------------------------->
+      <!-------------------- HERO -------------------------->
 
-    <section class="hero">
-      <div class="hero-container">
-        <div class="nav-container">
-          <div class="nav-brand">
+      <section class="hero">
+        <div class="hero-container">
+          <div class="nav-container">
+            <div class="nav-brand">
+              <h1 class="brand">team<span class="dot">.</span></h1>
+              <div class="mobile-nav">
+                <nav>
+                  <ul class="mobile-links">
+                    <li class="mobile-nav-link">Product</li>
+                    <li class="mobile-nav-link">
+                      <a style="text-decoration: none" href="/blog.html"
+                        >Blog</a
+                      >
+                    </li>
+                    <li class="mobile-nav-link">Support</li>
+                    <li class="mobile-nav-link">Log In</li>
+                    <li class="mobile-nav-link mobile-nav-btn">Get Access</li>
+                  </ul>
+                </nav>
+              </div>
+
+              <nav class="nav">
+                <ul class="links">
+                  <li class="nav-link">Product</li>
+                  <li class="nav-link">
+                    <a style="text-decoration: none" href="/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-link">Support</li>
+                  <li class="nav-link">Log In</li>
+                  <li class="nav-link nav-btn">Get Access</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="hero-text-container">
+            <h2 class="hero-text">Instant collaboration for remote teams</h2>
+            <p class="hero-description">
+              All-in-one place for your remote team to chat, collaborate and
+              track project progress.
+            </p>
+
+            <form class="email">
+              <input type="email" placeholder="Email" required />
+              <button type="submit">Get Early Access</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------- CHATS AND STATS -------------------------->
+
+      <section class="chats-and-stats">
+        <div class="chats-container">
+          <div class="chats-text">
+            <h2 class="heading-primary" style="margin-bottom: 1.2rem">
+              Chats for your distributed teams
+            </h2>
+            <p class="text-desc" style="margin-bottom: 4.8rem">
+              Team combines the immediacy of real-time chat with an email
+              threading model. With Team, you can catch up on important
+              conversations while ignoring irrelevant ones.
+            </p>
+            <a href="#" class="link">Learn more <span>&rarr;</span></a>
+          </div>
+          <div class="img-container">
+            <img src="imgs/mockup.jpg" class="mockup-img" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!---------------------- FEATURES -------------------------->
+
+      <!--------- FEATURE 1 ---------------->
+
+      <section class="features">
+        <div class="features-container">
+          <div class="features-img">
+            <img src="/imgs/laptop-woman.png" alt="" />
+          </div>
+          <div class="features-text">
+            <h1>Chats for your distributed teams</h1>
+            <p>
+              Team combines the immediacy of real-time chat with an email
+              threading model. With Team, you can catch up on important
+              conversations while ignoring irrelevant ones.
+            </p>
+            <a href="#" class="link">Learn more <span>&rarr;</span></a>
+          </div>
+
+          <!--------- FEATURE 2 ---------------->
+
+          <div class="features-text">
+            <h1>Choose how you want to work</h1>
+            <p>
+              In Team, you’ve got all the flexibility to work when, where and
+              how it’s best for you. You can easily chat, send audio and video
+              clips, or hop on a huddle to talk things out live.
+            </p>
+            <a href="#" class="link">Learn more <span>&rarr;</span></a>
+          </div>
+
+          <div class="features-img">
+            <img src="/imgs/laptop-woman-2.png" alt="" />
+          </div>
+          <!--------- FEATURE 3 ---------------->
+
+          <div class="features-img">
+            <img src="/imgs/laptop-hands.png" alt="" />
+          </div>
+
+          <div class="features-text">
+            <h1>Move faster with your Team tools</h1>
+            <p>
+              With your other work apps connected to Team, you can work faster
+              by switching tabs less. And with powerful tools like Workflow
+              Builder, you can automate away routine tasks.
+            </p>
+            <a href="#" class="link">Learn more <span>&rarr;</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------- TESTIMONIALS -------------------------->
+
+      <section class="testimonials">
+        <div class="testimonials-container">
+          <h1>What people say about Team</h1>
+          <div class="slider">
+            <div class="card">
+              <div class="stars">
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+              </div>
+              <p class="review">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div class="person">
+                <div class="person-img-container">
+                  <img src="/imgs/chelsea.png" class="person-img" alt="" />
+                </div>
+                <div class="person-name">
+                  <p>Chealsea Morgan</p>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="stars">
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+              </div>
+              <p class="review">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div class="person">
+                <div class="person-img-container">
+                  <img src="/imgs/nick.png" class="person-img" alt="" />
+                </div>
+                <div class="person-name">
+                  <p>Nick Cave</p>
+                  <p>CMO ot Nokia</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stars">
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+              </div>
+              <p class="review">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div class="person">
+                <div class="person-img-container">
+                  <img src="/imgs/lana.png" class="person-img" alt="" />
+                </div>
+                <div class="person-name">
+                  <p>Lana Rosenfeld</p>
+                  <p>Senior VP at Pinterest</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stars">
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+              </div>
+              <p class="review">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div class="person">
+                <div class="person-img-container">
+                  <img src="/imgs/giorgio.png" class="person-img" alt="" />
+                </div>
+                <div class="person-name">
+                  <p>Giorgio Moroder</p>
+                  <p>CTO ot Glovo</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stars">
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+                <span class="star">&#9733; </span>
+              </div>
+              <p class="review">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div class="person">
+                <div class="person-img-container">
+                  <img src="/imgs/young.png" class="person-img" alt="" />
+                </div>
+                <div class="person-name">
+                  <p>Young Liu</p>
+                  <p>CAO ot Foxconn</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls-box">
+            <ion-icon
+              ion-icon
+              name="arrow-back-outline"
+              class="slider-left"
+            ></ion-icon>
+            <ion-icon
+              name="arrow-forward-outline"
+              class="slider-right"
+            ></ion-icon>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------- FOOTER -------------------------->
+
+      <section class="footer">
+        <div class="footer-container">
+          <div class="footer-component footer-brand">
             <h1 class="brand">team<span class="dot">.</span></h1>
-            <nav>
-              <ul class="links">
-                <li class="nav-link">Product</li>
-                <li class="nav-link"> <a style="text-decoration: none;" href="/blog.html">Blog</a></li>
-                <li class="nav-link">Support</li>
-                <li class="nav-link">Log In</li>
-                <li class="nav-link nav-btn">Get Access</li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="hero-text-container">
-          <h2 class="hero-text">Instant collaboration for remote teams</h2>
-          <p class="hero-description">
-            All-in-one place for your remote team to chat, collaborate and track
-            project progress.
-          </p>
-
-          <form class="email">
-            <input type="email" placeholder="Email" required />
-            <button type="submit">Get Early Access</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-------------------- CHATS AND STATS -------------------------->
-
-    <section class="chats-and-stats">
-      <div class="chats-container">
-        <div class="chats-text">
-          <h2 class="heading-primary" style="margin-bottom: 1.2rem">
-            Chats for your distributed teams
-          </h2>
-          <p class="text-desc" style="margin-bottom: 4.8rem">
-            Team combines the immediacy of real-time chat with an email
-            threading model. With Team, you can catch up on important
-            conversations while ignoring irrelevant ones.
-          </p>
-          <a href="#" class="link">Learn more <span>&rarr;</span></a>
-        </div>
-        <div class="img-container">
-          <img src="imgs/mockup.jpg" class="mockup-img" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <!---------------------- FEATURES -------------------------->
-
-    <!--------- FEATURE 1 ---------------->
-
-    <section class="features">
-      <div class="features-container">
-        <div class="features-img">
-          <img src="/imgs/laptop-woman.png" alt="" />
-        </div>
-        <div class="features-text">
-          <h1>Chats for your distributed teams</h1>
-          <p>
-            Team combines the immediacy of real-time chat with an email
-            threading model. With Team, you can catch up on important
-            conversations while ignoring irrelevant ones.
-          </p>
-          <a href="#" class="link">Learn more <span>&rarr;</span></a>
-        </div>
-
-        <!--------- FEATURE 2 ---------------->
-
-        <div class="features-text">
-          <h1>Choose how you want to work</h1>
-          <p>
-            In Team, you’ve got all the flexibility to work when, where and how
-            it’s best for you. You can easily chat, send audio and video clips,
-            or hop on a huddle to talk things out live.
-          </p>
-          <a href="#" class="link">Learn more <span>&rarr;</span></a>
-        </div>
-
-        <div class="features-img">
-          <img src="/imgs/laptop-woman-2.png" alt="" />
-        </div>
-        <!--------- FEATURE 3 ---------------->
-
-        <div class="features-img">
-          <img src="/imgs/laptop-hands.png" alt="" />
-        </div>
-
-        <div class="features-text">
-          <h1>Move faster with your Team tools</h1>
-          <p>
-            With your other work apps connected to Team, you can work faster by
-            switching tabs less. And with powerful tools like Workflow Builder,
-            you can automate away routine tasks.
-          </p>
-          <a href="#" class="link">Learn more <span>&rarr;</span></a>
-        </div>
-      </div>
-    </section>
-
-    <!---------------------- TESTIMONIALS -------------------------->
-
-    <section class="testimonials">
-      <div class="testimonials-container">
-        <h1>What people say about Team</h1>
-        <div class="slider"> 
-          <div class="card">
-            <div class="stars">
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-            </div>
-            <p class="review">
-              Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
-              Proin porta est convallis lacus blandit pretium sed non enim.
-              Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
-              ultricies laoreet.
+            <p class="footer-desc">
+              Collaboration platform for the modern team.
             </p>
-            <div class="person">
-              <div class="person-img-container">
-                <img src="/imgs/chelsea.png" class="person-img" alt="" />
-              </div>
-              <div class="person-name">
-                <p>Chealsea Morgan</p>
-                <p>CEO at Subway</p>
-              </div>
-            </div>
           </div>
 
-          <div class="card">
-            <div class="stars">
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-            </div>
-            <p class="review">
-              Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
-              Proin porta est convallis lacus blandit pretium sed non enim.
-              Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
-              ultricies laoreet.
-            </p>
-            <div class="person">
-              <div class="person-img-container">
-                <img src="/imgs/nick.png" class="person-img" alt="" />
-              </div>
-              <div class="person-name">
-                <p>Nick Cave</p>
-                <p>CMO ot Nokia</p>
-              </div>
-            </div>
+          <div class="footer-component footer-company">
+            <h2>Company</h2>
+            <p>Product</p>
+            <p>Blog</p>
+            <p>Support</p>
           </div>
-          <div class="card">
-            <div class="stars">
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-            </div>
-            <p class="review">
-              Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
-              Proin porta est convallis lacus blandit pretium sed non enim.
-              Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
-              ultricies laoreet.
-            </p>
-            <div class="person">
-              <div class="person-img-container">
-                <img src="/imgs/lana.png" class="person-img" alt="" />
-              </div>
-              <div class="person-name">
-                <p>Lana Rosenfeld</p>
-                <p>Senior VP at Pinterest</p>
-              </div>
-            </div>
+
+          <div class="footer-component footer-features">
+            <h2>Features</h2>
+            <p>Screen Sharing</p>
+            <p>iOS & Android Apps</p>
+            <p>File Sharing</p>
+            <p>User Managment</p>
           </div>
-          <div class="card">
-            <div class="stars">
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-            </div>
-            <p class="review">
-              Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
-              Proin porta est convallis lacus blandit pretium sed non enim.
-              Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
-              ultricies laoreet.
-            </p>
-            <div class="person">
-              <div class="person-img-container">
-                <img src="/imgs/giorgio.png" class="person-img" alt="" />
-              </div>
-              <div class="person-name">
-                <p>Giorgio Moroder</p>
-                <p>CTO ot Glovo</p>
-              </div>
-            </div>
+
+          <div class="footer-component footer-contact">
+            <h2>Contact Us</h2>
+            <p>info@teamapp.com</p>
+            <p>1-800-300-400</p>
+            <p>1010 Sunset Blv Palo Alto, California</p>
           </div>
-          <div class="card">
-            <div class="stars">
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-              <span class="star">&#9733; </span>
-            </div>
-            <p class="review">
-              Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
-              Proin porta est convallis lacus blandit pretium sed non enim.
-              Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
-              ultricies laoreet.
-            </p>
-            <div class="person">
-              <div class="person-img-container">
-                <img src="/imgs/young.png" class="person-img" alt="" />
-              </div>
-              <div class="person-name">
-                <p>Young Liu</p>
-                <p>CAO ot Foxconn</p>
-              </div>
-            </div>
+
+          <div class="footer-component footer-email">
+            <h2>Stay up to date</h2>
+            <p>Subscribe to our newseller.</p>
+            <form class="email">
+              <input type="email" placeholder="Email" required />
+              <button type="submit">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </form>
           </div>
+
+          <p class="copy">© Copyright Team Inc.</p>
         </div>
-        <div class="slider-controls-box">
-          
-          <ion-icon ion-icon name="arrow-back-outline" class="slider-left"></ion-icon>
-          <ion-icon name="arrow-forward-outline" class="slider-right"></ion-icon>
-        </div>
-      </div>
-    </section>
-
-    <!---------------------- FOOTER -------------------------->
-
-
-    <section class="footer">
-      <div class="footer-container">
-        <div class="footer-component footer-brand"> 
-          <h1 class="brand">team<span class="dot">.</span></h1>
-          <p class="footer-desc">Collaboration platform for the modern team.</p>
-        </div>
-
-        <div class="footer-component footer-company">
-          <h2>Company</h2>
-          <p>Product</p>
-          <p>Blog</p>
-          <p>Support</p>
-        </div>
-
-        <div class="footer-component footer-features">
-          <h2>Features</h2>
-          <p>Screen Sharing</p>
-          <p>iOS & Android Apps</p>
-          <p>File Sharing</p>
-          <p>User Managment</p>
-        </div>
-
-        <div class="footer-component footer-contact">
-          <h2>Contact Us</h2>
-          <p>info@teamapp.com</p>
-          <p>1-800-300-400</p>
-          <p>1010 Sunset Blv Palo Alto, California</p>
-        </div>
-
-        <div class="footer-component footer-email">
-          <h2>Stay up to date</h2>
-          <p>Subscribe to our newseller.</p>
-          <form class="email">
-            <input type="email" placeholder="Email" required />
-            <button type="submit"><ion-icon name="arrow-forward-outline"></ion-icon></button>
-
-          </form>
-        </div>
-
-        <p class="copy">© Copyright Team Inc.</p>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
     <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

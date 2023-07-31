@@ -1,4 +1,4 @@
-/* styles.css */
+
 $primary-color: #339af0;
 $main-text-color: #f1f3f5;
 $gray-main: #868e96;
@@ -88,7 +88,9 @@ body {
     display: flex;
     align-items: center;
   }
-
+  .mobile-nav{
+    display: none;
+  }
   .links {
     display: flex;
     gap: 3.2rem;
