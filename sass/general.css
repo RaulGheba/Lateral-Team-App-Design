@@ -49,7 +49,6 @@ body {
   background-position: center;
   padding: 2.4rem 4.8rem;
   color: #f1f3f5;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
   margin-bottom: 0.8rem;
 }
 
@@ -148,7 +147,6 @@ body {
   max-width: 120rem;
   display: flex;
   gap: 4.8rem;
-  box-shadow: 0.5px 0px 4px rgba(0, 0, 0, 0.2);
 }
 .chats-container .chats-text {
   color: #07233b;
@@ -191,7 +189,6 @@ body {
        column-gap: 6.4rem;
   padding-left: 8rem;
   margin-bottom: 6.4rem;
-  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1) !important;
 }
 .features-container .features-img img {
   width: 100%;
@@ -231,7 +228,7 @@ body {
   position: relative;
 }
 .testimonials-container .slider {
-  margin-right: -90rem;
+  margin-right: -80rem;
   display: flex;
   gap: 4.2rem;
   justify-content: center;
@@ -241,13 +238,14 @@ body {
   box-shadow: 0 0 10px rgba(32, 107, 168, 0.295);
   border: 0.8rem;
   flex-basis: 34rem;
+  padding: 2.4rem;
 }
 .testimonials-container .slider .card .stars {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .testimonials-container .slider .card .star {
-  color: yellow;
+  color: rgb(214, 108, 9);
   font-size: 3.2rem;
 }
 .testimonials-container .slider .card .review {
@@ -256,7 +254,7 @@ body {
 }
 .testimonials-container .slider .card .person {
   display: flex;
-  margin-top: 3.2rem;
+  margin-top: 20%;
 }
 .testimonials-container .slider .card .person .person-img {
   width: 60%;

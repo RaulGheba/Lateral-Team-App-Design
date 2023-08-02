@@ -72,7 +72,6 @@ body {
   background-position: center;
   padding: 2.4rem 4.8rem;
   color: $main-text-color;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
   margin-bottom: 0.8rem;
 }
 
@@ -178,7 +177,6 @@ body {
   @include container-size();
   display: flex;
   gap: 4.8rem;
-  box-shadow: 0.5px 0px 4px rgba(0, 0, 0, 0.2);
   .chats-text {
     color: $secondary-color;
     margin-top: 18rem;
@@ -216,7 +214,6 @@ body {
   column-gap: 6.4rem;
   padding-left: 8rem;
   margin-bottom: 6.4rem;
-  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1) !important;
   .features-img img {
     width: 100%;
   }
@@ -255,7 +252,7 @@ body {
 .testimonials-container {
   margin-bottom: 24rem;
   .slider {
-    margin-right: -90rem;
+    margin-right: -80rem;
     display: flex;
     gap: 4.2rem;
     justify-content: center;
@@ -264,12 +261,13 @@ body {
       box-shadow: 0 0 10px rgba(32, 107, 168, 0.295);
       border: 0.8rem;
       flex-basis: 34rem;
+      padding: 2.4rem;
       .stars {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
       }
       .star {
-        color: yellow;
+        color: rgb(214, 108, 9);
         font-size: 3.2rem;
       }
       .review {
@@ -279,7 +277,7 @@ body {
 
       .person {
         display: flex;
-        margin-top: 3.2rem;
+        margin-top: 20%;
 
         .person-img {
           width: 60%;

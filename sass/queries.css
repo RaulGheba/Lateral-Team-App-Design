@@ -45,7 +45,7 @@
     margin-right: -58rem !important;
   }
   .testimonials-container .slider .card {
-    flex-basis: 23rem !important;
+    flex-basis: 23rem;
   }
   .testimonials-container .slider .card .review {
     flex-basis: 27rem !important;
@@ -113,7 +113,7 @@
     padding-left: 4.8rem;
   }
   .testimonials .testimonials-container .slider .card {
-    flex-basis: 20rem !important;
+    flex-basis: 20rem;
   }
   .chats-container {
     padding-bottom: 6rem;
@@ -156,6 +156,47 @@
   }
   .nav-brand .brand {
     font-size: 3.6rem;
+  }
+  .chats-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .chats-container .chats-text .text-desc {
+    width: 50%;
+  }
+  .chats-container .chats-text .heading-primary {
+    width: 50%;
+  }
+  .features-container {
+    padding-left: 0;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .features-container .features-img {
+    width: 80%;
+  }
+  .features-container .features-img img {
+    height: 35rem;
+  }
+  .features-container .features-text {
+    width: 80%;
+  }
+  .features-container .features-text h1 {
+    font-size: 4rem !important;
+  }
+  .features-container .features-text:nth-child(3) {
+    padding-left: 4rem !important;
+    width: 100%;
+  }
+  .features-container .features-text:nth-child(3) p {
+    width: 90%;
+  }
+  .testimonials-container h1 {
+    width: 80%;
+    padding-left: 12rem;
+  }
+  .testimonials-container .slider .card {
+    flex-basis: 10rem;
   }
 }
 /* under 699px */

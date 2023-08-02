@@ -7,7 +7,7 @@ const testimonialLeft = document.querySelector(".slider-left");
 
 
 testimonialRight.addEventListener('click',function(){
-  testimonialSlider.style.marginLeft='-90rem';
+  testimonialSlider.style.marginLeft='-80rem';
   testimonialSlider.style.transition='all 0.5s';
   testimonialLeft.style.display = "block";
   this.style.display='none';
