@@ -8,7 +8,9 @@
 
 /* under 1840px */
 @media (max-width: 115em) {
-
+    .mobile-nav{
+    display: none;
+  }
   .slider-controls-box {
     font-size: 3.6rem;
     position: absolute;
@@ -17,13 +19,9 @@
   }
 
   .slider {
-    padding-right: 25rem;
-    margin-right: -80rem !important;
+    margin-right: -50rem !important;
   }
 
-  .testimonials-container .slider .card {
-    flex-basis: 30rem !important;
-  }
 }
 
 /* under 1532px */
@@ -35,13 +33,7 @@
     margin-top: 2.4rem;
   }
 
-  .slider {
-    margin-right: -58rem !important;
-  }
 
-  .testimonials-container .slider .card {
-    flex-basis: 30rem !important;
-  }
 
   .footer-brand {
     padding-top: 6rem;
@@ -61,14 +53,7 @@
     margin-right: -58rem !important;
   }
 
-  .testimonials-container .slider .card {
-    flex-basis: 23rem ;
-  }
 
-  .testimonials-container .slider .card .review {
-    flex-basis: 27rem !important;
-    font-size: 1.6rem;
-  }
 
   .hero-container {
     .hero-text {
@@ -147,13 +132,7 @@
     margin-top: 2.4rem;
   }
 
-  .testimonials {
-    padding-left: 4.8rem;
 
-    .testimonials-container .slider .card {
-      flex-basis: 20rem ;
-    }
-  }
 
   .chats-container {
     padding-bottom: 6rem;
@@ -183,9 +162,7 @@
 /* under 864px */
 
 @media (max-width: 54em) {
-  .testimonials .testimonials-container .slider {
-    gap: 2rem;
-  }
+
 
   .features-container .features-text h1 {
     font-size: 2.4rem !important;
@@ -254,18 +231,6 @@
     
   }
 
-  .testimonials-container{
-    h1{
-      width: 80%;
-      padding-left: 12rem;
-    }
-
-   .slider .card{
-      flex-basis: 10rem;
-    }
-
-  }
-
 }
 
 
@@ -321,18 +286,21 @@
   }
 
   .nav-brand{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
+    .mobile-toggler{
+      display: block;
+    }
   }
 
  .nav-brand .nav {
     display: none;
   }
 
- .nav-brand .mobile-nav {
-    display: block;
+  .mobile-nav{
+    display: none;
+    width: 105%;
   }
-
   .mobile-links{
     background-color: rgba(170, 170, 219, 0.932) !important;
     width: 100%;
@@ -346,12 +314,12 @@
     font-size: 1.6rem;
   }
  
+
 }
 
-.display-mobile{
+/* CLASSES FOR ACTIVTATING MOBILE NAV */
+
+.display-mobile-nav{
   display: block;
-}
-
-.hide-mobile{
-  display: none;
+  width: 105%;
 }

@@ -32,6 +32,15 @@ body {
   margin: 0;
 }
 
+.slider-controls-box {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 /*********************** HERO **********************/
 .brand {
   font-size: 5rem;
@@ -58,16 +67,20 @@ body {
 }
 
 .nav-brand {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-right: 2.4rem;
 }
-.nav-brand nav {
+.nav-brand .nav {
   display: flex;
   align-items: center;
 }
-.nav-brand .mobile-nav {
+.nav-brand .mobile-toggler {
+  position: absolute;
   display: none;
+  width: 8%;
+  transform: translate(55rem, 0);
 }
 .nav-brand .links {
   display: flex;
@@ -231,13 +244,13 @@ body {
   margin-right: -80rem;
   display: flex;
   gap: 4.2rem;
-  justify-content: center;
+  width: 300rem;
 }
 .testimonials-container .slider .card {
   background-color: #f8f9fa;
   box-shadow: 0 0 10px rgba(32, 107, 168, 0.295);
   border: 0.8rem;
-  flex-basis: 34rem;
+  flex: 0 1 50rem;
   padding: 2.4rem;
 }
 .testimonials-container .slider .card .stars {
@@ -282,9 +295,6 @@ body {
   position: absolute;
   transform: translate(180rem, 0);
   margin-top: 2.4rem;
-}
-.slider-controls-box .slider-left {
-  display: none;
 }
 
 /*********************** FOOTER **********************/

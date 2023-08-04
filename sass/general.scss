@@ -10,6 +10,8 @@ $font-family: "Lexend Deca", sans-serif;
   box-sizing: border-box;
 }
 
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -54,6 +56,14 @@ body {
   margin: 0;
 }
 
+.slider-controls-box{
+  display: flex;
+  gap: 2.4rem;
+}
+
+.mobile-nav{
+  display: none;
+}
 /*********************** HERO **********************/
 
 .brand {
@@ -80,16 +90,24 @@ body {
 }
 
 .nav-brand {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-right: 2.4rem;
-  nav {
+  .nav {
     display: flex;
     align-items: center;
   }
-  .mobile-nav{
+
+
+
+  .mobile-toggler{
+    position: absolute;
     display: none;
+    width: 8%;
+    transform: translate(55rem,0);
   }
+
   .links {
     display: flex;
     gap: 3.2rem;
@@ -250,17 +268,18 @@ body {
 /*********************** TESTIMONIALS **********************/
 
 .testimonials-container {
+
   margin-bottom: 24rem;
   .slider {
     margin-right: -80rem;
     display: flex;
     gap: 4.2rem;
-    justify-content: center;
+    width: 300rem;
     .card {
       background-color: #f8f9fa;
       box-shadow: 0 0 10px rgba(32, 107, 168, 0.295);
       border: 0.8rem;
-      flex-basis: 34rem;
+      flex: 0 1 50rem;
       padding: 2.4rem;
       .stars {
         display: flex;
@@ -314,9 +333,7 @@ body {
   transform: translate(180rem, 0);
   margin-top: 2.4rem;
 
-  .slider-left {
-    display: none;
-  }
+
 }
 
 /*********************** FOOTER **********************/
